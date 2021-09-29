@@ -12,7 +12,6 @@ Versions:
 1.0.0 (default): New split API (https://tensorflow.org/datasets/splits)
 Download size: 80.23 MiB
 
-**Used Biderctional LSTM, GRU, Conv1D, Embedding, Global Avg Pooling, Global Max Pooling
 
 #Dataset2: imdb_reviews/subwords8k
 Config description: Uses tfds.deprecated.text.SubwordTextEncoder with 8k vocab size
@@ -25,4 +24,4 @@ FeaturesDict({
     'text': Text(shape=(None,), dtype=tf.int64, encoder=<SubwordTextEncoder vocab_size=8185>),
 })
 
-**Used Biderctional LSTM, GRU, Conv1D, Embedding, Global Avg Pooling, Global Max Pooling
+***Used Biderctional LSTM, GRU, Conv1D, Embedding, Global Avg Pooling, Global Max Pooling***
